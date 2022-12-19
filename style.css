@@ -1,0 +1,253 @@
+*{box-sizing: border-box;
+}
+
+body{border: 1px solid black;}
+main, footer{margin-left: 162.5px;
+    margin-right: 162.5px;}
+
+
+.log{margin: 0px;
+padding: 0px;}
+.nav{margin-left: 162.5px;
+    margin-right: 162.5px;
+    display: flex;
+    margin-top:34px ;
+/* border: 1px solid red; */
+}
+
+.nav a{height: 30px;
+    margin: 2px 2px 2px 0px;
+    padding: 8px 12px;
+    border-right: 1px solid #CCC;
+    font-size: 13px;
+    color: #1C3E8D;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: "DIN";
+}
+
+.nav a:hover{text-decoration: underline;}
+
+.nav .inise2{border-right: 0px solid #fff;
+              margin-right: 30px;
+}
+
+.nav .inise{display: flex;
+    height: 40px;
+    border-radius: 3px;
+    margin: 0px;
+    padding: 12px 20px 12px 10px;
+    font-size: 15px;
+    background-color: #1634A2;
+    border-right: none;
+    font-family: "FS Joey Medium";
+    color: #FFF;
+}
+
+.nav .inise:hover{text-decoration: none;
+    opacity: 0.8;}
+
+.loginicio{width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    padding-top: 0px;
+}
+
+.logoSura{width:118px;
+height: 40px;
+margin-right: 119px;}
+
+.verde{display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 162.5px;
+    padding-right: 162.5px;
+    background-color: rgb(121, 184, 41)}
+
+.verde .arl{height: 37px;
+    margin-top: 15px;
+    margin-right:220px ;
+    font-size: 17px;
+    font-family: "DIN Medium";
+    color: #FFF;}
+
+.verde a{
+    height: 34px;
+    margin: 2px 0px;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: "DIN";
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+.buscar{background-color: red;
+    margin-left: 89px;
+padding: 0px;}
+
+.buscar a{padding: 0px;}
+
+.buscar input{width: 115px;
+    height: 29px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.buscar input::placeholder{font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    color: #b2b2b2;}
+
+.buscar input:focus{
+    outline: none;
+place-content: none;}
+
+.lupa{position: absolute;
+    left: 1158px
+}
+
+h1{margin-top:55px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6cb239; 
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(108, 178, 57);
+}
+
+.parraf{margin-top: 40px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-weight: 700;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.parraf a{text-decoration: none;
+    color: #08c}
+
+.parraf a:hover{text-decoration: underline;
+    color: #005580;
+}
+
+form p{margin: 10px 0px 0px;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #323232;
+    line-height: 10px;
+    text-align: left;
+}
+
+form p sup{color: red}
+
+form select{width: 310px;
+    height: 35px;
+    border: 0px solid #DBE1EB;
+    border-radius: 5px;
+    background-color: #EEE;
+    margin: 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    font-weight: 400;
+}
+
+form select option{font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2E3133;
+    text-transform: uppercase;
+}
+
+form input{display: block;
+    width: 310px;
+    height: 35px;
+    border: 0px solid #DBE1EB;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #EEE;
+    margin: 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    color: #2E3133;
+}
+
+form select{display: block}
+
+textarea{display: block;
+    width: 310px;
+margin-bottom: 10px;
+background-color: #EEE;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+.caja{display: inline;
+width: 15px;
+height: 15px;
+}
+
+.cajas{margin-bottom: 20px}
+
+.cajas label{text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-indent: 20px;
+    color: #323232;
+    padding: 10px 0px;
+    font-weight: 800;
+    
+}
+
+.cajas a{color: #323232; }
+
+.clip{width: 24px;
+height: 24px}
+
+.clip2{font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    color: #000;
+    padding: 10px 0px
+}
+
+.lin{font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+}
+
+.g-recaptcha{margin-top: 15px;}
+
+.boton{width: 305px;
+    height: 34px;
+    align-self: center;
+    text-align: center;
+    margin: 10px 0px;
+background-color: #79B829;
+border-radius: 4px;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+padding: 10px 20px 10px 20px;
+cursor: pointer;
+
+}
+
+/* ---------------------------- */
+@import url(//db.onlinewebfonts.com/c/e934b630586ca9b7fe66c99ac1592f4a?family=DIN);
+@font-face {font-family: "DIN"; src: url("//db.onlinewebfonts.com/t/e934b630586ca9b7fe66c99ac1592f4a.eot"); src: url("//db.onlinewebfonts.com/t/e934b630586ca9b7fe66c99ac1592f4a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e934b630586ca9b7fe66c99ac1592f4a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e934b630586ca9b7fe66c99ac1592f4a.woff") format("woff"), url("//db.onlinewebfonts.com/t/e934b630586ca9b7fe66c99ac1592f4a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e934b630586ca9b7fe66c99ac1592f4a.svg#DIN") format("svg"); }
+/* --------------------------- */
+@import url(//db.onlinewebfonts.com/c/68872ce7bf957bd250d67f5be7d58a3d?family=FS+Joey+Medium);
+@font-face {font-family: "FS Joey Medium"; src: url("//db.onlinewebfonts.com/t/68872ce7bf957bd250d67f5be7d58a3d.eot"); src: url("//db.onlinewebfonts.com/t/68872ce7bf957bd250d67f5be7d58a3d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/68872ce7bf957bd250d67f5be7d58a3d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/68872ce7bf957bd250d67f5be7d58a3d.woff") format("woff"), url("//db.onlinewebfonts.com/t/68872ce7bf957bd250d67f5be7d58a3d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/68872ce7bf957bd250d67f5be7d58a3d.svg#FS Joey Medium") format("svg"); }
+/* ------------------------------------- */
+@import url(//db.onlinewebfonts.com/c/39d8205ea5850c9f82199ce84cb05aca?family=DIN+Medium);
+@font-face {font-family: "DIN Medium"; src: url("//db.onlinewebfonts.com/t/39d8205ea5850c9f82199ce84cb05aca.eot"); src: url("//db.onlinewebfonts.com/t/39d8205ea5850c9f82199ce84cb05aca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39d8205ea5850c9f82199ce84cb05aca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39d8205ea5850c9f82199ce84cb05aca.woff") format("woff"), url("//db.onlinewebfonts.com/t/39d8205ea5850c9f82199ce84cb05aca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39d8205ea5850c9f82199ce84cb05aca.svg#DIN Medium") format("svg"); }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Normalize/normalize.css">
+    <link rel="stylesheet" href="/HTML/EJERCICIOS/ARL SURA/style.css">
+    <link rel="shortcut icon" href="/HTML/EJERCICIOS/ARL SURA/favicon.ico" type="image/x-icon">
+    <script async src='https://www.google.com/recaptcha/api.js?hl=es'></script>
+    <link href="//db.onlinewebfonts.com/c/68872ce7bf957bd250d67f5be7d58a3d?family=FS+Joey+Medium" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/e934b630586ca9b7fe66c99ac1592f4a?family=DIN" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/39d8205ea5850c9f82199ce84cb05aca?family=DIN+Medium" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>ARL SURA - Riesgos Laborales - ARL - Escríbenos arlsura.com</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img class="logoSura" src="/HTML/EJERCICIOS/ARL SURA/logo_sura.png" alt="logo_sura">
+            <a href="https://www.arlsura.com/index.php">Inicio</a>
+            <a href="https://www.arlsura.com/index.php/oficinas-arl-sura">Oficinas ARL Sura</a>
+            <a href="https://www.arlsura.com/index.php/contactenos-arl">Escríbenos tus PQRS</a>
+            <a href="https://www.arlsura.com/index.php/canales-de-contacto">Canales de contacto</a>
+            <a class="inise2" href="https://solicitudes.sura.com/ss/register/arl/UsersRegistration.aspx">Solicitud de Clave</a>
+            <a class="inise" href="https://login.sura.com/sso/servicelogin.aspx?continueTo=https%3A%2F%2Fwww.arlsura.com%2Fcomponent%2Farl_login&service=arpsura"><img class="loginicio" src="/HTML/EJERCICIOS/ARL SURA/logo iniciarsesion.svg" alt="">INICIAR SESIÓN</a>
+        </div>
+        <div class="verde">
+            <span class="arl">ARL</span>
+            <a href="https://www.epssura.com/component/solicitudes">Actualiza tus datos aquí</a>
+            <a class="ver" href="https://www.arlsura.com/index.php/centro-de-legislacion">Normatividad</a>
+            <a href="https://www.arlsura.com/index.php/centro-de-documentacion">Centro de documentación</a>
+            <a href="https://www.arlsura.com/index.php/preguntas-frecuentes-arl">Preguntas frecuentes</a>
+            <span class="buscar"><input type="text" name="buscar" id="" placeholder="Buscar..."> <a href="https://www.arlsura.com/index.php/component/search/?searchword=Buscar...&searchwordsugg=&option=com_search"><img class="lupa" src="/HTML/EJERCICIOS/ARL SURA/lupanaranjada.png" alt="buscar"></a></span>
+        </div>
+    </header>
+    <main>
+        <h1>Escríbenos tus PQRS</h1>
+        <p class="parraf">Antes de escribirnos te invitamos a consultar <a href="#">este documento</a> con las preguntas más frecuentes relacionadas al covid-19. En temas de Protocolos de Bioseguridad y Entrega de Elementos de protección Personal.</p>
+        <form action="#" method="get">
+            <p>¿Tu comentario está asociado a? <sup>*</sup></p>
+            <select name="comentario" id="comentario">
+                <option value="--Seleccionar--">--Seleccionar--</option>
+                <option value="Felicitaciones">Felicitaciones</option>
+                <option value="Petición">Petición</option>
+                <option value="Queja">Queja</option>
+                <option value="Sugerencia">Sugerencia</option>
+            </select>
+            <p>Dinos la causa de tu comentario: <sup>*</sup></p>
+            <select name="causa" id="causa">
+                <option value="--Seleccionar--">--Seleccionar--</option>
+            </select>
+            <p>¿Por qué medio quieres que te demos la respuesta? <sup>*</sup></p>
+            <select name="medio" id="medio">
+                <option value="LLAMADA TELEFÓNICA">LLAMADA TELEFÓNICA</option>
+                <option value="CARTA">CARTA</option>
+                <option value="CORREO ELECTRÓNICO">CORREO ELECTRÓNICO</option>
+            </select>
+            <p>¿Que tipo de identificación tienes? <sup>*</sup></p>
+            <select name="identificacion" id="identificacion">
+                <option value="--Seleccionar--">--Seleccionar--</option>
+                <option value="CED.EXTRANJERIA">CED.EXTRANJERIA</option>
+                <option value="CÉDULA">CÉDULA</option>
+                <option value="CERTIFICADO NACIDO VIVO">CERTIFICADO NACIDO VIVO</option>
+                <option value="DIPLOMÁTICO">DIPLOMÁTICO</option>
+                <option value="DOC.IDENT. DE EXTRANJEROS">DOC.IDENT. DE EXTRANJEROS</option>
+                <option value="NUIP">NUIP</option>
+                <option value="PASAPORTE">PASAPORTE</option>
+                <option value="REGISTRO CIVIL">REGISTRO CIVIL</option>
+                <option value="REGISTRO CIVIL TEMPORAL">REGISTRO CIVIL TEMPORAL</option>
+                <option value="TARJ.IDENTIDAD">TARJ.IDENTIDAD</option>
+            </select>
+            <input type="text" name="iden" id="iden" placeholder="Número de identificación">
+            <p>¿Cómo te llamas? <sup>*</sup></p>
+            <input type="text" placeholder="Primer Nombre (Obligatorio)">
+            <input type="text" name="" id="" placeholder="Segundo Nombre">
+            <p>¿Cuáles son tus apellidos? <sup>*</sup></p>
+            <input type="text" placeholder="Primer Apellido(Obligatorio)">
+            <input type="text" name="" id="" placeholder="Segundo Apellido">
+            <p>Danos tu correo electrónico: <sup>*</sup></p>
+            <input type="email" name="correo" id="correo">
+            <p>¿A dónde te podemos llamar?</p>
+            <input type="number" name="nun" id="num" placeholder="Teléfono fijo">
+            <input type="number" name="celu" id="celu" placeholder="Celular">
+            <p>¿En qué ciudad y departamentos vives? <sup>*</sup></p>
+            <select name="depart" id="depart">
+                <option value="AMAZONAS">AMAZONAS</option>
+                <option value="ARAUCA">ARAUCA</option>
+                <option value="ATLANTICO">ATLANTICO</option>
+                <option value="BOGOTÁ D.C.">BOGOTÁ D.C.</option>
+                <option value="BOLIVAR">BOLIVAR</option>
+                <option value="BOYACÁ">BOYACÁ</option>
+                <option value="CALDAS">CALDAS</option>
+                <option value="NORTE DE SANTANDER">NORTE DE SANTANDER</option>
+                <option value="PUTUMAYO">PUTUMAYO</option>
+            </select>
+            <select name="depart" id="depart">
+                <option value="--Seleccionar--">--Seleccionar--</option>
+            </select>
+            <p>Escríbenos tus comentarios: <sup>*</sup></p>
+            <textarea name="comenta" id="coment" cols="40" rows="5"></textarea>
+            <div class="cajas">
+                <input class="caja" type="checkbox" name="registro" id="registro">
+                <label for="registro">¿Estás registrando esta solicitud en nombre de otra persona o <br> empresa?</label>
+            </div>
+            <div class="cajas">
+                <input class="caja" type="checkbox" name="tratadatos" id="tratadatos" checked>
+                <label for="tratadatos">Autorizo el tratamiento de mis datos de acuerdo con la <br> <a href="https://www.segurossura.com.co/paginas/legal/politica-privacidad-datos.aspx">Política de tratamiento de datos personales</a> </label>
+            </div>
+            <div class="cajas">
+                <input class="caja" type="checkbox" name="infor" id="infor" checked>
+                <label for="infor">Autorizas voluntariamente que información general de <br> Suramericana me sea enviada por: -Correo electrónico - Celular</label>
+            </div>
+            
+            <img class="clip" src="/HTML/EJERCICIOS/ARL SURA/CLIP.png" alt="CLIP"> <span class="clip2">Para anexar archivos haz <a class="lin" href="https://crmsura.secure.force.com/formularioatencion/CRM_AdjuntarArchivoPopup_pag">clic aquí</a></span>
+            <div class="g-recaptcha" data-sitekey="6Lf87R8gAAAAAFmuLxntlUB5nKQag1gCiRNTOoOT"></div>
+            <input class="boton" type="submit" value="Enviar">
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
